@@ -7,11 +7,11 @@
         {
             "type": "lldb",
             "request": "launch",
+            //"stopOnEntry": true,
             "name": "Debug",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "stopOnEntry": true
         }
     ]
 }
